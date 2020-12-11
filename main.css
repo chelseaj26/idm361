@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fccde2;
+    font-family: sans-serif;
+}
+
+.body {
+    max-width: 1200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 15px auto 15px auto;
+    background-color: #fccde2
+        /*#fccde2*/
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body > .row-1 {
+    margin: 0 auto 15px;
+    color: #ff304f;
+    text-align: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 4rem;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.body > .row-2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.body > .row-2 > .row-2-col {
+    display: flex;
+    margin: auto;
+    justify-content: space;
+    flex-direction: column;
+}
+
+.body > .row-2 > .row-2-col > input {
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    /* height: 70px; */
+    text-align: center;
+    font-size: 20px;
+    /*    background: linear-gradient(to right, rgb(188, 78, 156), rgb(248, 7, 89));*/
+    background: #fc83c4;
+    padding: 4px 0px;
+    border: 2px solid #f3558e;
+    transition: box-shadow 0.1s ease-in-out, transform 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.body > .row-2 > .row-2-col > input:focus {
+    border: 5px solid #fff;
+    transform: scale(1.05, 1.05);
+    box-shadow: -4px 4px 8px rgba(34, 34, 34, 0.15), 4px 4px 8px rgba(34, 34, 34, 0.15);
+}
+
+.body > .row-2 > .row-2-col > img {
+    position: relative;
+    max-width: 350px;
+    margin: 20px auto;
+    filter: grayscale(10%);
+    height: auto;
+}
+
+.body > .row-3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.body > .row-3 > button {
+    background-color: #fff;
+    padding: 5px 15px;
+    font-size: 2rem;
+    color: #ff304f;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bold;
+    /*    font: 400 40px/0.9 'Oleo Script',
+Helvetica,
+sans-serif;*/
+    border: 1px solid #D3D3D3;
+    transition: box-shadow 0.1s ease-in-out,
+        transform 0.1s ease-in-out;
+}
+
+.body > .row-3 > .btn:hover {
+    box-shadow: -4px 4px 8px rgba(34, 34, 34, 0.15), 4px 4px 8px rgba(34, 34, 34, 0.15);
+    transform: scale(1.05, 1.05);
+}
+
+.body > .result {
+    font-size: 1.5rem;
+    color: #ff304f;
+    margin: 20px auto 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*----------------------
+
+        LANDSCAPE
+
+----------------------*/
+@media (orientation: landscape) {
+    .body > .row-1 {
+        display: none;
+
+    }
+
+    /*
+    @media only screen and (orientation:landscape) {
+        .body > .row-1 {
+            display: none;
+        }
+    }
+*/

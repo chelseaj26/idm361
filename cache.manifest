@@ -1,0 +1,44 @@
+CACHE MANIFEST
+# version - 3.1 
+
+CACHE:
+
+# CSS
+normalize.css
+css-add2home.css
+main.css
+
+
+# IMAGES
+images/icon-57.png
+images/icon-114.png
+images/icon-180.png
+images/face-1.png
+images/face-2.png
+images/face-3.png
+images/face-4.png
+images/face-5.png
+images/face-6.png
+
+# HTML FILES
+index.html
+
+# JAVASCRIPT - SPECIFIC ORDER
+js-refresh-manifest.js
+js-add2home.js
+script.js
+
+
+## Any resources not listed above will require the user to be online.
+NETWORK:
+*
+
+
+
+
+
+
+
+
+
+
